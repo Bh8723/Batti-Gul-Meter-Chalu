@@ -23,7 +23,7 @@ This project is an advanced electrical surveillance robot capable of navigating 
 
 ### Task Breakdown
 
-#### Mechanical Design
+# Mechanical Design
 The link to the Fusion file: [Fusion File](https://a360.co/3M39VT6)
 
 - **Suspension:** Shock absorbers for each wheel.
@@ -37,7 +37,7 @@ The link to the Fusion file: [Fusion File](https://a360.co/3M39VT6)
 - Add a scissor lift for vertical reach.
 - Add a rubber track for better grip while climbing stairs.
 
-#### Electronics
+# Electronics
 
 In our surveillance robot project, we completed several key tasks related to electronics and power management. Here’s a summary:
 
@@ -92,12 +92,12 @@ Summing up the power consumption of all components:
 
 For external layers in air: 26.479 mil
 
-### Automation
+# Automation
 (Package included as .zip file)
 
 ## Path Planning
 
-# Development Process
+### Development Process
 The first step to allow smooth navigation was to accurately locate the obstacles around the turtlebot and giving it an idea of the world. To achieve this we performed SLAM (Simultaneous Localization and Mapping). SLAM (Simultaneous Localization and Mapping) in ROS2 enables robots to build maps of their environment while tracking their own position. Via Rviz, We used the LiDaR and IMU sensor we were able to map the world but due to drift in odometry values making a perfect map was a rather tedious task, as distant areas of maps were inconsistent with each other due to the drift, although after several attempts a good enough map was created.
 
 We created another launch file nav2.launch.py to launch Rviz and created a new node “init_amcl_pose_publisher” to publish the initial position of the bot to the navigation stack.
