@@ -93,7 +93,7 @@ Summing up the power consumption of all components:
 For external layers in air: 26.479 mil
 
 # Automation
-(Package included as .zip file)
+Link to package - https://drive.google.com/file/d/1vJMVdHjOD6n0xipUPtd-66NJv4V5c6Jd/view?usp=sharing
 
 ## Path Planning
 
